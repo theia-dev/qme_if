@@ -9,7 +9,7 @@ This repository contains a collection of scripts developed for the analysis desc
 ---
 
 ## QME Co-Registration  
-This folder contains MATLAB scripts (developed using MATLAB 2023a) to extract the volume and elasticity of ovarian structures of interest, such as follicles and corpora lutea. The segmentation of follicles and corpora lutea was performed using light microscopy [ref].  
+This folder contains MATLAB scripts (developed using MATLAB 2023a) to extract the volume and elasticity of ovarian structures of interest, such as follicles and corpora lutea. The segmentation of follicles and corpora lutea was performed using light microscopy.  
 
 Scripts provided by Dr Matt S Hepburn ([Google Scholar](https://scholar.google.com/citations?user=JVlWwAEAAAAJ&hl=en) | [ORCID](https://orcid.org/0000-0001-5953-4478))
 
