@@ -85,12 +85,12 @@ def visualize_animation(data, result_folder):
 
 if __name__ == '__main__':
     # Prepare result folder
-    result_folder = Path("results")
+    result_folder = Path("3D_Reconstruction_Visualization/results")
     if not result_folder.exists():
         exit("Run prepare.py first!")
 
     # Load the necessary raw data
-    data = get_data_mask("example_data/tangent_modulus_xyz.npz", result_folder)
+    data = get_data_mask("3D_Reconstruction_Visualization/example_data/tangent_modulus_xyz.npz", result_folder)
 
     if sys.argv[1] == "--interactive":
         # Interactive view

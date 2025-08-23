@@ -67,7 +67,7 @@ def get_top_view_mask(data, result_folder):
 
 
 def generate_volumetric_mask(data, top_view_mask, result_folder):
-    # Produce the volumetric mask and save it for use in visualize_data.py
+    # Produce the volumetric mask and save it for use in visualize.py
     volumetric_mask_path = Path(result_folder / "mask.npz")
     print("Generating volumetric mask")
     volumetric_mask = np.zeros_like(data, dtype=bool)
@@ -108,11 +108,11 @@ def generate_volumetric_mask(data, top_view_mask, result_folder):
 
 if __name__ == '__main__':
     # Prepare result folder
-    result_folder = Path("results")
+    result_folder = Path("3D_Reconstruction_Visualization/results")
     result_folder.mkdir(parents=True, exist_ok=True)
 
     # Load the necessary raw data
-    data = get_data("example_data/oct_snr_lin.npz")
+    data = get_data("3D_Reconstruction_Visualization/example_data/oct_snr_lin.npz")
     # Generate the top view mask
     top_view_mask = get_top_view_mask(data, result_folder)
     # Generate the volumetric mask
