@@ -47,7 +47,7 @@ This folder contains `Jython` scripts for `ImageJ/Fiji` to automate the quantifi
      * `CL_binary/`: Binary masks of the cropped ROIs.
 
 
-An immunofluorescence image (ExampleImg_IF_quant.tif) and a corresponding set of manually drawn regions of interest (ExampleImg_IF_quant_ROISet.zip) to test the script are available on [FigShare](https://figshare.com/s/1451cf0c2cf6d57b4b15).
+An immunofluorescence image (ExampleImg_IF_quant.tif) and a corresponding set of manually drawn regions of interest (ExampleImg_IF_quant_ROISet.zip) to test the script are available on [FigShare](https://doi.org/10.6084/m9.figshare.29973118.v1).
 
 
 ---
